@@ -24,19 +24,19 @@ public class ProgramaPernas {
         System.out.print("Isso é um(a)");
         switch (perna){
             case 1:
-                tipo = "saci";
+                tipo = "Saci";
                 break;
             case 2:
-                tipo = "bípede";
+                tipo = "Bípede";
                 break;
             case 3:
-                tipo = "trpé";
+                tipo = "Tripé";
                 break;
             case 4:
-                tipo = "quadrupede";
+                tipo = "Quadrúpede";
                 break;
             case 6:
-                tipo = "aranha";
+                tipo = "Aranha";
                 break;
             default:
                 tipo = "ET";
