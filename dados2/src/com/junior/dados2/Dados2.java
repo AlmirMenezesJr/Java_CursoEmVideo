@@ -81,27 +81,27 @@ public class Dados2 extends javax.swing.JFrame {
                
         switch (giroDados){
             case 1 -> {
-                ImageIcon dado = new ImageIcon(new ImageIcon("C:/Users/jr/Pictures/dados_img/dado1.jpg").getImage().getScaledInstance(100,100,Image.SCALE_DEFAULT));
+                ImageIcon dado = new ImageIcon(new ImageIcon("Java_CursoEmVideo/dados2/src/Imagens/dado1.jpg").getImage().getScaledInstance(100,100,Image.SCALE_DEFAULT));
                 lblImagem.setIcon(dado); 
             }
             case 2 -> {
-                ImageIcon dado2 = new ImageIcon(new ImageIcon("C:/Users/jr/Pictures/dados_img/dado2.jpg").getImage().getScaledInstance(100,100,Image.SCALE_DEFAULT));
+                ImageIcon dado2 = new ImageIcon(new ImageIcon("Java_CursoEmVideo/dados2/src/Imagens/dado2.jpg").getImage().getScaledInstance(100,100,Image.SCALE_DEFAULT));
                 lblImagem.setIcon(dado2);
             }
             case 3 -> {
-                ImageIcon dado3 = new ImageIcon(new ImageIcon("C:/Users/jr/Pictures/dados_img/dado3.jpg").getImage().getScaledInstance(100,100,Image.SCALE_DEFAULT));
+                ImageIcon dado3 = new ImageIcon(new ImageIcon("Java_CursoEmVideo/dados2/src/Imagens/dado3.jpg").getImage().getScaledInstance(100,100,Image.SCALE_DEFAULT));
                 lblImagem.setIcon(dado3);
             }
             case 4 -> {
-                ImageIcon dado4 = new ImageIcon(new ImageIcon("C:/Users/jr/Pictures/dados_img/dado4.jpg").getImage().getScaledInstance(100,100,Image.SCALE_DEFAULT));
+                ImageIcon dado4 = new ImageIcon(new ImageIcon("Java_CursoEmVideo/dados2/src/Imagens/dado4.jpg").getImage().getScaledInstance(100,100,Image.SCALE_DEFAULT));
                 lblImagem.setIcon(dado4);
             }
             case 5 -> {
-                ImageIcon dado5 = new ImageIcon(new ImageIcon("C:/Users/jr/Pictures/dados_img/dado5.jpg").getImage().getScaledInstance(100,100,Image.SCALE_DEFAULT));
+                ImageIcon dado5 = new ImageIcon(new ImageIcon("Java_CursoEmVideo/dados2/src/Imagens/dado5.jpg").getImage().getScaledInstance(100,100,Image.SCALE_DEFAULT));
                 lblImagem.setIcon(dado5) ;
             }
             default -> {
-                ImageIcon dado6 = new ImageIcon(new ImageIcon("C:/Users/jr/Pictures/dados_img/dado6.jpg").getImage().getScaledInstance(100,100,Image.SCALE_DEFAULT));
+                ImageIcon dado6 = new ImageIcon(new ImageIcon("Java_CursoEmVideo/dados2/src/Imagens/dado6.jpg").getImage().getScaledInstance(100,100,Image.SCALE_DEFAULT));
                 lblImagem.setIcon(dado6); 
                         }
         }
